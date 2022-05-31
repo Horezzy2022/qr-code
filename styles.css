@@ -13,13 +13,19 @@ body{
     background-color: hsl(212, 45%, 89%);
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 .container {
     font-family: 'Outfit', sans-serif;
     background-color: white;
     border-radius: 15px;
     padding: 10px;
-    margin: 100px auto;
-    max-width: 240px;
+    max-width: 270px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -33,6 +39,8 @@ body{
 .main-text{
     font-family: 'Outfit', sans-serif;
     font-weight: 700;
+    font-size: 1.2rem;
+    padding: 10px 10px 5px;
     text-align: center;
     color: hsl(218, 44%, 22%);
 }
@@ -42,13 +50,14 @@ body{
     font-weight: 400;
     text-align: center;
     margin-top: -5px;
+    padding: 0 10px;
     color: hsl(220, 15%, 55%);
     font-weight: 400;
 }
 
 .attribution { 
     font-family: 'Roboto', sans-serif;
-    margin-top: -70px;
+    margin-top: -100px;
     font-size: 12px; text-align: center;
 }
 
